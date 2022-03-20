@@ -9,6 +9,6 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("안녕 c언어 공부 하기\n");
+    printf("HelloWorld");
     return 0;
 }
