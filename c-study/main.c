@@ -8,7 +8,10 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("HelloWorld");
-    return 0;
+    char c = 'A';
+    int i = 10, j = 20, k = 30;
+    printf("간단한 출력 프로그램 printf 여러 종류의 자료를 출력");
+    printf("c = %c", c);
+    printf("i = %d, j= %d, k = %d", i, j ,k);
+    
 }
