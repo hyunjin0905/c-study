@@ -7,11 +7,10 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    char c = 'A';
+int main() {
+   
     int i = 10, j = 20, k = 30;
-    printf("간단한 출력 프로그램 printf 여러 종류의 자료를 출력");
-    printf("c = %c", c);
+    printf("1000-9000 사이의 정수를 입력하시오");
     printf("i = %d, j= %d, k = %d", i, j ,k);
     
 }

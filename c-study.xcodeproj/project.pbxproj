@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		265454E127E5ACDA00FE7BF1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 265454E027E5ACDA00FE7BF1 /* main.c */; };
-		26D3715627E89384003BBD87 /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = 26D3715527E89384003BBD87 /* example.c */; };
+		26CF2AD3281D575700A367F6 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CF2AD1281D575700A367F6 /* example.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		265454DD27E5ACDA00FE7BF1 /* c-study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265454E027E5ACDA00FE7BF1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		26D3715427E89384003BBD87 /* example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
-		26D3715527E89384003BBD87 /* example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
+		26CF2AD1281D575700A367F6 /* example.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example.cpp; sourceTree = "<group>"; };
+		26CF2AD2281D575700A367F6 /* example.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = example.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				265454E027E5ACDA00FE7BF1 /* main.c */,
-				26D3715427E89384003BBD87 /* example.h */,
-				26D3715527E89384003BBD87 /* example.c */,
+				26CF2AD1281D575700A367F6 /* example.cpp */,
+				26CF2AD2281D575700A367F6 /* example.hpp */,
 			);
 			path = "c-study";
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D3715627E89384003BBD87 /* example.c in Sources */,
+				26CF2AD3281D575700A367F6 /* example.cpp in Sources */,
 				265454E127E5ACDA00FE7BF1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
