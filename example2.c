@@ -3,7 +3,7 @@
 //  c-study
 //
 //  Created by 조현진 on 2022/05/01.
-// 예제 4-3 
+// 예제 4-3
 //
 
 #include <stdio.h>
@@ -12,7 +12,7 @@ int main() {
    char ch;
    int Nchar = 0, Nnum = 0, Nblank = 0;
    printf("문자열을 입력하시오 :");
-   scanf("%c", &ch);
+    ch = getchar();
    while (ch != '\n')
    {
     if (ch >= '0' && ch <= '9')
