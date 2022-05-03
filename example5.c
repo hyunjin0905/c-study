@@ -1,5 +1,5 @@
 //
-//  example3.c
+//  example5.c
 //  c-study
 //
 //  Created by 조현진 on 2022/05/01.
@@ -10,7 +10,7 @@ void by_ref(int *a, int *b, int *c);
 void main() {
   int x = 2, y = 4, z = 6;
   printf("Before calling by_value() \t: ");
-  printf("x = %d, y= %d, z= %d", x, y, z);
+  printf("x = %d, y = %d, z= %d", x, y, z);
   by_value(x, y, z);
   printf("After calling by_value() \t: ");
   printf("x = %d, y = %d, z = %d \n", x, y, z);

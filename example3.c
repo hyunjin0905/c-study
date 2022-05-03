@@ -3,7 +3,7 @@
 //  c-study
 //
 //  Created by 조현진 on 2022/05/01.
-//
+// 예제 4-4
 
 
 #include <stdio.h>

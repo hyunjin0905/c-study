@@ -17,9 +17,9 @@ int main()
     printf("1000 이상 9000 이하의 숫자를 입력해주세요");
   } else {
       if(a % 2 == 0) {
-        printf(&a, "짝수");
+        printf( a);
       } else {
-        printf(&a, "홀수");
+        printf( a );
       }
 
   }
